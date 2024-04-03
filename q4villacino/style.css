@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 97, 40);
+}
+
+form{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+fieldset{
+    border: 2px solid white;
+}
+
+input{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+textarea {
+    border: 2px solid white;
+}
+
+input[type=text]{
+    color: white;
+}
+
+input[type=email]{
+    color: white;
+}
+
+input[type=password]{
+    color: white;
+}
+
+input[type=submit]{
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input[type=reset]{
+    padding: 5px;
+    margin-bottom: px;
+    color: white;
+}
+
+#interests{
+    padding: 5px;
+    color: white;
+}
+
+input:focus {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#legend{
+    font-size: xx-large;
+    margin-top: 10px;
+}
